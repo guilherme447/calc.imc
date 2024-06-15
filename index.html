@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>descubra sua gorjeta</title>
+    <script src="calc.js" defer></script>
+    <style>
+        body {
+            height: 100vh;
+            display: grid;
+            place-items: center;
+            background-color: antiquewhite;
+        }
+        
+        form {
+            width: 400px;
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            padding: 30px 30px 30px 30px;
+            border-radius: 30px;
+            background-color: white;
+            box-shadow: 2px 4px 9px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <input type="text" name="valor--canta" id="valor--conta" placeholder="Digite o valor da conta...">
+
+        <input type="text" name="num--pessoa" id="num--pessoa" placeholder="digite o numero de pessoa">
+
+        <input type="text" name="gorjeta" id="gorjeta" placeholder="digite a gorjeta em % ">
+
+
+        <p class="resultado"></p>
+
+        <button id="btn--calc">Calcular</button>
+
+        <button type="reset"> Limpar</button>
+
+    </form>
+</body>
+
+</html>
